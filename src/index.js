@@ -1,5 +1,6 @@
-const { createCanvas, loadImage } = require("canvas");
-const Jimp = require("jimp");
+import { createCanvas, loadImage } from "canvas";
+import Jimp from "jimp";
+import prettyMilliseconds from "pretty-ms";
 
 async function createCard(
   imageBg,
@@ -8,7 +9,6 @@ async function createCard(
   trackDuration,
   trackTotalDuration
 ) {
-  const prettyMilliseconds = (await import("pretty-ms")).default;
   const canvasWidth = 1200;
   const canvasHeight = 400;
   const canvas = createCanvas(canvasWidth, canvasHeight);
@@ -194,4 +194,4 @@ async function createCard(
   return canvas.toBuffer();
 }
 
-module.exports = createCard;
+export default createCard;

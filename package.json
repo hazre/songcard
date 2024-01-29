@@ -1,11 +1,11 @@
 {
   "name": "songcard",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "LewdHuTao",
+  "author": "hazre",
   "license": "ISC",
   "description": "A simple package to create song card.",
   "dependencies": {
@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LewdHuTao/songcard.git"
+    "url": "git+https://github.com/hazre/songcard.git"
   },
   "bugs": {
-    "url": "https://github.com/LewdHuTao/songcard/issues"
+    "url": "https://github.com/hazre/songcard/issues"
   },
-  "homepage": "https://github.com/LewdHuTao/songcard#readme",
+  "homepage": "https://github.com/hazre/songcard#readme",
   "keywords": [
     "discord.js",
     "discord",

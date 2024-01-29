@@ -1,5 +1,7 @@
 <div align="center">
-  <h1>songcard</h1>
+  <h1>songcard (fork)</h1>
+  <p>This is a fork of <a href="https://github.com/shittybot/songcard">Songcard</a> Library but modified to use ESM, instead of CommonJS</p>
+  <hr>
   <p>A simple package to create song card when play songs in discord.</p>
   <p>
   <a href="https://www.npmjs.com/package/songcard"><img src="https://img.shields.io/npm/v/songcard?maxAge=3600" alt="NPM version" /></a>
